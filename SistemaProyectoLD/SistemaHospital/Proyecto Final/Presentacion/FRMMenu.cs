@@ -130,14 +130,23 @@ namespace Proyecto_Final
 
         private void btnMedicamentos_Click(object sender, EventArgs e)
         {
+            FRMMedicamentos Medicamentos = new FRMMedicamentos();
+            Medicamentos.Show();
+            /*
             AbrirFormulario<FRMMedicamentos>();
             iconMedicamentos.BackColor = Color.FromArgb(0, 255, 0);
+            */
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AbrirFormulario<FRMTratamientos>();
+            FRMTratamientos Tratamientos = new FRMTratamientos();
+            Tratamientos.Show();
+            
+            /*
+             * AbrirFormulario<FRMTratamientos>();
             iconTratamientos.BackColor = Color.FromArgb(0, 255, 0);
+            */
         }
 
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
@@ -150,14 +159,22 @@ namespace Proyecto_Final
 
         private void iconMedicamentos_Click(object sender, EventArgs e)
         {
+            FRMMedicamentos Medicamentos = new FRMMedicamentos();
+            Medicamentos.Show();
+            /*
             AbrirFormulario<FRMMedicamentos>();
             iconMedicamentos.BackColor = Color.FromArgb(0, 255, 0);
+            */
         }
 
         private void iconTratamientos_Click(object sender, EventArgs e)
         {
+            FRMTratamientos Tratamientos = new FRMTratamientos();
+            Tratamientos.Show();
+            /*
             AbrirFormulario<FRMTratamientos>();
             iconTratamientos.BackColor = Color.FromArgb(0, 255, 0);
+            */
         }
 
         private void PanelTitulo_Paint(object sender, PaintEventArgs e)
@@ -208,10 +225,21 @@ namespace Proyecto_Final
 
         }
 
+
+
         private void iconEmpleados_Click(object sender, EventArgs e)
         {
+
+
+            Empleados Empleados = new Empleados();
+            Empleados.Show();
+
+            /*
             AbrirFormulario<Empleados>();
             iconEmpleados.BackColor = Color.FromArgb(0, 255, 0);
+            */
+            
+
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -221,22 +249,34 @@ namespace Proyecto_Final
 
         private void iconHabitaciones_Click(object sender, EventArgs e)
         {
+            Habitaciones Habitaciones = new Habitaciones();
+            Habitaciones.Show();
+
+            /*
             AbrirFormulario<Habitaciones>();
             iconHabitaciones.BackColor = Color.FromArgb(0, 255, 0);
+            */
         }
 
         private void iconPacientes_Click(object sender, EventArgs e)
         {
+            Pacientes Pacientes = new Pacientes();
+            Pacientes.Show();
+            /*
             AbrirFormulario<Pacientes>();
             iconPacientes.BackColor = Color.FromArgb(0, 255, 0);
+            */
         }
 
         private void iconGestionHab_Click(object sender, EventArgs e)
         {
 
-
+            GestionHabitaciones GestionHabitaciones = new GestionHabitaciones();
+            GestionHabitaciones.Show();
+            /*
             AbrirFormulario<GestionHabitaciones>();
             iconGestionHab.BackColor = Color.FromArgb(0, 255, 0);
+            */
         }
 
         private void iconCita_Click(object sender, EventArgs e)
@@ -316,7 +356,7 @@ namespace Proyecto_Final
 
         }
 
-
+        
     }
 
 }
