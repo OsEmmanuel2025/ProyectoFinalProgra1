@@ -90,17 +90,17 @@
             this.groupBox1.Controls.Add(this.cboxEstado);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Location = new System.Drawing.Point(43, 44);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(983, 188);
             this.groupBox1.TabIndex = 33;
             this.groupBox1.TabStop = false;
             // 
             // txtCodigoGestion
             // 
-            this.txtCodigoGestion.Location = new System.Drawing.Point(171, 14);
-            this.txtCodigoGestion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCodigoGestion.Location = new System.Drawing.Point(199, 21);
+            this.txtCodigoGestion.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigoGestion.Name = "txtCodigoGestion";
             this.txtCodigoGestion.ReadOnly = true;
             this.txtCodigoGestion.Size = new System.Drawing.Size(160, 22);
@@ -109,8 +109,8 @@
             // dtpFechaGestion
             // 
             this.dtpFechaGestion.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaGestion.Location = new System.Drawing.Point(571, 14);
-            this.dtpFechaGestion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpFechaGestion.Location = new System.Drawing.Point(609, 12);
+            this.dtpFechaGestion.Margin = new System.Windows.Forms.Padding(4);
             this.dtpFechaGestion.Name = "dtpFechaGestion";
             this.dtpFechaGestion.Size = new System.Drawing.Size(160, 22);
             this.dtpFechaGestion.TabIndex = 39;
@@ -140,7 +140,7 @@
             // btnCancelar
             // 
             this.btnCancelar.Location = new System.Drawing.Point(813, 129);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(100, 28);
             this.btnCancelar.TabIndex = 31;
@@ -151,7 +151,7 @@
             // btnEditar
             // 
             this.btnEditar.Location = new System.Drawing.Point(813, 71);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(100, 28);
             this.btnEditar.TabIndex = 30;
@@ -173,7 +173,7 @@
             // btnAgregar
             // 
             this.btnAgregar.Location = new System.Drawing.Point(813, 15);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(100, 28);
             this.btnAgregar.TabIndex = 29;
@@ -183,8 +183,8 @@
             // 
             // txtCodigoEmpleado
             // 
-            this.txtCodigoEmpleado.Location = new System.Drawing.Point(171, 50);
-            this.txtCodigoEmpleado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCodigoEmpleado.Location = new System.Drawing.Point(199, 55);
+            this.txtCodigoEmpleado.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigoEmpleado.Name = "txtCodigoEmpleado";
             this.txtCodigoEmpleado.Size = new System.Drawing.Size(160, 22);
             this.txtCodigoEmpleado.TabIndex = 16;
@@ -224,16 +224,16 @@
             // 
             // txtCodigoHabitacion
             // 
-            this.txtCodigoHabitacion.Location = new System.Drawing.Point(171, 92);
-            this.txtCodigoHabitacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCodigoHabitacion.Location = new System.Drawing.Point(199, 92);
+            this.txtCodigoHabitacion.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigoHabitacion.Name = "txtCodigoHabitacion";
             this.txtCodigoHabitacion.Size = new System.Drawing.Size(160, 22);
             this.txtCodigoHabitacion.TabIndex = 18;
             // 
             // txtUsuarioAuditoria
             // 
-            this.txtUsuarioAuditoria.Location = new System.Drawing.Point(571, 92);
-            this.txtUsuarioAuditoria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUsuarioAuditoria.Location = new System.Drawing.Point(609, 92);
+            this.txtUsuarioAuditoria.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsuarioAuditoria.Name = "txtUsuarioAuditoria";
             this.txtUsuarioAuditoria.Size = new System.Drawing.Size(160, 22);
             this.txtUsuarioAuditoria.TabIndex = 26;
@@ -268,8 +268,8 @@
             "Limpieza ",
             "Observación",
             "Alimentación"});
-            this.cboxTipoGestion.Location = new System.Drawing.Point(171, 132);
-            this.cboxTipoGestion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboxTipoGestion.Location = new System.Drawing.Point(199, 133);
+            this.cboxTipoGestion.Margin = new System.Windows.Forms.Padding(4);
             this.cboxTipoGestion.Name = "cboxTipoGestion";
             this.cboxTipoGestion.Size = new System.Drawing.Size(160, 24);
             this.cboxTipoGestion.TabIndex = 20;
@@ -282,8 +282,8 @@
             "Preparación",
             "Ocupada",
             "Bloqueada"});
-            this.cboxEstado.Location = new System.Drawing.Point(571, 48);
-            this.cboxEstado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboxEstado.Location = new System.Drawing.Point(609, 48);
+            this.cboxEstado.Margin = new System.Windows.Forms.Padding(4);
             this.cboxEstado.Name = "cboxEstado";
             this.cboxEstado.Size = new System.Drawing.Size(160, 24);
             this.cboxEstado.TabIndex = 24;
@@ -303,7 +303,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(43, 252);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(983, 236);
@@ -313,7 +313,7 @@
             // btnEliminar
             // 
             this.btnEliminar.Location = new System.Drawing.Point(736, 496);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(100, 28);
             this.btnEliminar.TabIndex = 36;
@@ -324,7 +324,7 @@
             // btnSalir
             // 
             this.btnSalir.Location = new System.Drawing.Point(856, 496);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(100, 28);
             this.btnSalir.TabIndex = 37;
@@ -342,7 +342,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GestionHabitaciones";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);

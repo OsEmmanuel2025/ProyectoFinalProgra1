@@ -194,5 +194,10 @@ namespace HospitalProyecto
         {
 
         }
+
+        private void lblFechaAuditoria_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
