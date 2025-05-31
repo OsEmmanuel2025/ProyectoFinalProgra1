@@ -69,7 +69,7 @@
             this.PanelContenedor.Controls.Add(this.PanelTitulo);
             this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelContenedor.Location = new System.Drawing.Point(0, 0);
-            this.PanelContenedor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanelContenedor.Margin = new System.Windows.Forms.Padding(4);
             this.PanelContenedor.Name = "PanelContenedor";
             this.PanelContenedor.Size = new System.Drawing.Size(1095, 800);
             this.PanelContenedor.TabIndex = 0;
@@ -82,7 +82,7 @@
             this.PanelFormularios.Controls.Add(this.label2);
             this.PanelFormularios.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelFormularios.Location = new System.Drawing.Point(267, 49);
-            this.PanelFormularios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanelFormularios.Margin = new System.Windows.Forms.Padding(4);
             this.PanelFormularios.Name = "PanelFormularios";
             this.PanelFormularios.Size = new System.Drawing.Size(828, 751);
             this.PanelFormularios.TabIndex = 3;
@@ -96,7 +96,7 @@
             this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalir.IconSize = 25;
             this.btnSalir.Location = new System.Drawing.Point(676, 702);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(117, 34);
             this.btnSalir.TabIndex = 27;
@@ -132,7 +132,7 @@
             this.PanelMenu.Controls.Add(this.iconMedicamentos);
             this.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelMenu.Location = new System.Drawing.Point(0, 49);
-            this.PanelMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanelMenu.Margin = new System.Windows.Forms.Padding(4);
             this.PanelMenu.Name = "PanelMenu";
             this.PanelMenu.Size = new System.Drawing.Size(267, 751);
             this.PanelMenu.TabIndex = 2;
@@ -145,7 +145,7 @@
             this.iconUsuarios.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconUsuarios.IconSize = 30;
             this.iconUsuarios.Location = new System.Drawing.Point(33, 618);
-            this.iconUsuarios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconUsuarios.Margin = new System.Windows.Forms.Padding(4);
             this.iconUsuarios.Name = "iconUsuarios";
             this.iconUsuarios.Size = new System.Drawing.Size(153, 42);
             this.iconUsuarios.TabIndex = 12;
@@ -162,7 +162,7 @@
             this.iconPagoEmp.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPagoEmp.IconSize = 30;
             this.iconPagoEmp.Location = new System.Drawing.Point(35, 553);
-            this.iconPagoEmp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconPagoEmp.Margin = new System.Windows.Forms.Padding(4);
             this.iconPagoEmp.Name = "iconPagoEmp";
             this.iconPagoEmp.Size = new System.Drawing.Size(153, 42);
             this.iconPagoEmp.TabIndex = 11;
@@ -179,7 +179,7 @@
             this.iconPagoCitas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPagoCitas.IconSize = 30;
             this.iconPagoCitas.Location = new System.Drawing.Point(33, 480);
-            this.iconPagoCitas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconPagoCitas.Margin = new System.Windows.Forms.Padding(4);
             this.iconPagoCitas.Name = "iconPagoCitas";
             this.iconPagoCitas.Size = new System.Drawing.Size(153, 42);
             this.iconPagoCitas.TabIndex = 10;
@@ -196,7 +196,7 @@
             this.iconCita.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconCita.IconSize = 30;
             this.iconCita.Location = new System.Drawing.Point(33, 402);
-            this.iconCita.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconCita.Margin = new System.Windows.Forms.Padding(4);
             this.iconCita.Name = "iconCita";
             this.iconCita.Size = new System.Drawing.Size(153, 50);
             this.iconCita.TabIndex = 9;
@@ -213,7 +213,7 @@
             this.iconGestionHab.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconGestionHab.IconSize = 30;
             this.iconGestionHab.Location = new System.Drawing.Point(35, 334);
-            this.iconGestionHab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconGestionHab.Margin = new System.Windows.Forms.Padding(4);
             this.iconGestionHab.Name = "iconGestionHab";
             this.iconGestionHab.Size = new System.Drawing.Size(153, 44);
             this.iconGestionHab.TabIndex = 8;
@@ -230,7 +230,7 @@
             this.iconEmpleados.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconEmpleados.IconSize = 30;
             this.iconEmpleados.Location = new System.Drawing.Point(35, 271);
-            this.iconEmpleados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconEmpleados.Margin = new System.Windows.Forms.Padding(4);
             this.iconEmpleados.Name = "iconEmpleados";
             this.iconEmpleados.Size = new System.Drawing.Size(153, 44);
             this.iconEmpleados.TabIndex = 7;
@@ -247,7 +247,7 @@
             this.iconPacientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPacientes.IconSize = 30;
             this.iconPacientes.Location = new System.Drawing.Point(35, 202);
-            this.iconPacientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconPacientes.Margin = new System.Windows.Forms.Padding(4);
             this.iconPacientes.Name = "iconPacientes";
             this.iconPacientes.Size = new System.Drawing.Size(153, 50);
             this.iconPacientes.TabIndex = 6;
@@ -264,7 +264,7 @@
             this.iconHabitaciones.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconHabitaciones.IconSize = 30;
             this.iconHabitaciones.Location = new System.Drawing.Point(33, 135);
-            this.iconHabitaciones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconHabitaciones.Margin = new System.Windows.Forms.Padding(4);
             this.iconHabitaciones.Name = "iconHabitaciones";
             this.iconHabitaciones.Size = new System.Drawing.Size(153, 43);
             this.iconHabitaciones.TabIndex = 5;
@@ -281,7 +281,7 @@
             this.iconTratamientos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconTratamientos.IconSize = 30;
             this.iconTratamientos.Location = new System.Drawing.Point(33, 73);
-            this.iconTratamientos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconTratamientos.Margin = new System.Windows.Forms.Padding(4);
             this.iconTratamientos.Name = "iconTratamientos";
             this.iconTratamientos.Size = new System.Drawing.Size(153, 43);
             this.iconTratamientos.TabIndex = 4;
@@ -298,7 +298,7 @@
             this.iconMedicamentos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconMedicamentos.IconSize = 30;
             this.iconMedicamentos.Location = new System.Drawing.Point(33, 7);
-            this.iconMedicamentos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconMedicamentos.Margin = new System.Windows.Forms.Padding(4);
             this.iconMedicamentos.Name = "iconMedicamentos";
             this.iconMedicamentos.Size = new System.Drawing.Size(153, 43);
             this.iconMedicamentos.TabIndex = 3;
@@ -318,7 +318,7 @@
             this.PanelTitulo.Controls.Add(this.btnCerrar);
             this.PanelTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelTitulo.Location = new System.Drawing.Point(0, 0);
-            this.PanelTitulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanelTitulo.Margin = new System.Windows.Forms.Padding(4);
             this.PanelTitulo.Name = "PanelTitulo";
             this.PanelTitulo.Size = new System.Drawing.Size(1095, 49);
             this.PanelTitulo.TabIndex = 1;
@@ -332,9 +332,9 @@
             this.FechaHoy.Location = new System.Drawing.Point(812, 17);
             this.FechaHoy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FechaHoy.Name = "FechaHoy";
-            this.FechaHoy.Size = new System.Drawing.Size(93, 16);
+            this.FechaHoy.Size = new System.Drawing.Size(98, 16);
             this.FechaHoy.TabIndex = 3;
-            this.FechaHoy.Text = "imprimeFecha";
+            this.FechaHoy.Text = "Imprimir Fecha:";
             this.FechaHoy.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.FechaHoy.Click += new System.EventHandler(this.FechaHoy_Click);
             // 
@@ -344,7 +344,7 @@
             this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurar.Image")));
             this.btnRestaurar.Location = new System.Drawing.Point(996, 15);
-            this.btnRestaurar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRestaurar.Margin = new System.Windows.Forms.Padding(4);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(21, 20);
             this.btnRestaurar.TabIndex = 0;
@@ -357,7 +357,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(248, 11);
+            this.label1.Location = new System.Drawing.Point(55, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(486, 31);
@@ -371,7 +371,7 @@
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
             this.btnMinimizar.Location = new System.Drawing.Point(967, 15);
-            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(21, 20);
             this.btnMinimizar.TabIndex = 0;
@@ -384,7 +384,7 @@
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
             this.btnMaximizar.Location = new System.Drawing.Point(996, 15);
-            this.btnMaximizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMaximizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(21, 20);
             this.btnMaximizar.TabIndex = 1;
@@ -397,7 +397,7 @@
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
             this.btnCerrar.Location = new System.Drawing.Point(1025, 15);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(21, 18);
             this.btnCerrar.TabIndex = 0;
@@ -411,7 +411,7 @@
             this.ClientSize = new System.Drawing.Size(1095, 800);
             this.Controls.Add(this.PanelContenedor);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimumSize = new System.Drawing.Size(867, 492);
             this.Name = "FRMMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -88,16 +88,16 @@ namespace SistemaHospitalario
             // lblTipoTrabajo
             // 
             this.lblTipoTrabajo.Font = new System.Drawing.Font("Calisto MT", 9.75F);
-            this.lblTipoTrabajo.Location = new System.Drawing.Point(30, 20);
+            this.lblTipoTrabajo.Location = new System.Drawing.Point(14, 20);
             this.lblTipoTrabajo.Name = "lblTipoTrabajo";
-            this.lblTipoTrabajo.Size = new System.Drawing.Size(114, 23);
+            this.lblTipoTrabajo.Size = new System.Drawing.Size(130, 23);
             this.lblTipoTrabajo.TabIndex = 0;
             this.lblTipoTrabajo.Text = "Tipo de Trabajo:";
             // 
             // lblSueldo
             // 
             this.lblSueldo.Font = new System.Drawing.Font("Calisto MT", 9.75F);
-            this.lblSueldo.Location = new System.Drawing.Point(30, 60);
+            this.lblSueldo.Location = new System.Drawing.Point(14, 63);
             this.lblSueldo.Name = "lblSueldo";
             this.lblSueldo.Size = new System.Drawing.Size(100, 23);
             this.lblSueldo.TabIndex = 2;
@@ -106,7 +106,7 @@ namespace SistemaHospitalario
             // lblFechaAlta
             // 
             this.lblFechaAlta.Font = new System.Drawing.Font("Calisto MT", 9.75F);
-            this.lblFechaAlta.Location = new System.Drawing.Point(30, 100);
+            this.lblFechaAlta.Location = new System.Drawing.Point(12, 100);
             this.lblFechaAlta.Name = "lblFechaAlta";
             this.lblFechaAlta.Size = new System.Drawing.Size(100, 23);
             this.lblFechaAlta.TabIndex = 4;
@@ -115,7 +115,7 @@ namespace SistemaHospitalario
             // lblEstado
             // 
             this.lblEstado.Font = new System.Drawing.Font("Calisto MT", 9.75F);
-            this.lblEstado.Location = new System.Drawing.Point(30, 140);
+            this.lblEstado.Location = new System.Drawing.Point(12, 140);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(100, 23);
             this.lblEstado.TabIndex = 6;
