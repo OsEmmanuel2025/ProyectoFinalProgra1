@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using HospitalProyecto;
+using SistemaHospitalario;
+
 
 namespace Proyecto_Final
 {
@@ -238,29 +240,32 @@ namespace Proyecto_Final
         private void iconCita_Click(object sender, EventArgs e)
         {
 
-            //AbrirFormulario<FrmCitas>();
-            iconCita.BackColor = Color.FromArgb(0, 255, 0);
+            FrmCitas citas = new FrmCitas();
+            citas.Show();
+
+           //* AbrirFormulario<FrmCitas>();
+          //*  iconCita.BackColor = Color.FromArgb(0, 255, 0);
 
         }
 
         private void iconPagoCitas_Click(object sender, EventArgs e)
         {
 
-            //AbrirFormulario<FrmPagoCitas>();
+            AbrirFormulario<FrmPagoCitas>();
             iconPagoCitas.BackColor = Color.FromArgb(0, 255, 0);
         }
 
         private void iconPagoEmp_Click(object sender, EventArgs e)
         {
 
-            //AbrirFormulario<FrmPagoEmpleados>();
+            AbrirFormulario<FrmPagoEmpleados>();
             iconPagoEmp.BackColor = Color.FromArgb(0, 255, 0);
         }
 
         private void iconUsuarios_Click(object sender, EventArgs e)
         {
 
-            //AbrirFormulario<FrmUsuarios>();
+            AbrirFormulario<FrmUsuarios>();
             iconUsuarios.BackColor = Color.FromArgb(0, 255, 0);
         }
 
