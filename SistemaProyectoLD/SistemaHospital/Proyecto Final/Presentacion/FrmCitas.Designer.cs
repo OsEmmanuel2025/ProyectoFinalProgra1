@@ -133,7 +133,7 @@ namespace SistemaHospitalario
             this.lblFechaIngreso.Font = new System.Drawing.Font("Calisto MT", 9.75F);
             this.lblFechaIngreso.Location = new System.Drawing.Point(30, 90);
             this.lblFechaIngreso.Name = "lblFechaIngreso";
-            this.lblFechaIngreso.Size = new System.Drawing.Size(124, 23);
+            this.lblFechaIngreso.Size = new System.Drawing.Size(100, 23);
             this.lblFechaIngreso.TabIndex = 2;
             this.lblFechaIngreso.Text = "Fecha Ingreso:";
             // 
@@ -142,7 +142,7 @@ namespace SistemaHospitalario
             this.lblFechaEgreso.Font = new System.Drawing.Font("Calisto MT", 9.75F);
             this.lblFechaEgreso.Location = new System.Drawing.Point(30, 130);
             this.lblFechaEgreso.Name = "lblFechaEgreso";
-            this.lblFechaEgreso.Size = new System.Drawing.Size(124, 23);
+            this.lblFechaEgreso.Size = new System.Drawing.Size(100, 23);
             this.lblFechaEgreso.TabIndex = 3;
             this.lblFechaEgreso.Text = "Fecha Egreso:";
             // 

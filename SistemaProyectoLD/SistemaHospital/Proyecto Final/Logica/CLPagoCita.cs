@@ -1,6 +1,6 @@
 namespace SistemaHospitalario.Logica
 {
-    public class PagoCita
+    public class CLPagoCita
     {
         public static double MtdImpuestoPago(double monto) => monto * 0.12;
 

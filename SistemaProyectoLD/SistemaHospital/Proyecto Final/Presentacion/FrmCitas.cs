@@ -23,8 +23,8 @@ namespace SistemaHospitalario
 
         private void btnCalcular_Click_1(object sender, EventArgs e)
         {
-            double costoTratamiento = Citas.MtdCostoTratamientos(cmbCodigoPaciente.Text);
-            double costoHabitacion = Citas.MtdCostoHabitacion(cmbCodigoPaciente.Text);
+            double costoTratamiento = CLCitas.MtdCostoTratamientos(cmbCodigoPaciente.Text);
+            double costoHabitacion = CLCitas.MtdCostoHabitacion(cmbCodigoPaciente.Text);
 
 
             txtCostoTratamiento.Text = costoTratamiento.ToString("F2");
