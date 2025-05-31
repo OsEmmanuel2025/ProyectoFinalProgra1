@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Proyecto_Final
+{
+    internal class CLFechaMenu
+    {
+        public DateTime MtdFechaHoy()
+        {
+            return DateTime.Now;
+        }
+    }
+}
