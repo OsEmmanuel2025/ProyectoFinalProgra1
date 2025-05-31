@@ -233,6 +233,8 @@ namespace Proyecto_Final
 
         private void iconGestionHab_Click(object sender, EventArgs e)
         {
+
+
             AbrirFormulario<GestionHabitaciones>();
             iconGestionHab.BackColor = Color.FromArgb(0, 255, 0);
         }
@@ -250,23 +252,36 @@ namespace Proyecto_Final
 
         private void iconPagoCitas_Click(object sender, EventArgs e)
         {
+            FrmPagoCitas pagoCitas = new FrmPagoCitas();
+            pagoCitas.Show();
 
-            AbrirFormulario<FrmPagoCitas>();
+          /*  AbrirFormulario<FrmPagoCitas>();
             iconPagoCitas.BackColor = Color.FromArgb(0, 255, 0);
+          */         
         }
 
         private void iconPagoEmp_Click(object sender, EventArgs e)
         {
 
+            FrmPagoEmpleados pagoEmpleados = new FrmPagoEmpleados();
+            pagoEmpleados.Show();
+
+            /*
             AbrirFormulario<FrmPagoEmpleados>();
             iconPagoEmp.BackColor = Color.FromArgb(0, 255, 0);
+            */
         }
 
         private void iconUsuarios_Click(object sender, EventArgs e)
         {
 
+
+            FrmUsuarios usuarios = new FrmUsuarios();
+            usuarios.Show();
+            /*
             AbrirFormulario<FrmUsuarios>();
             iconUsuarios.BackColor = Color.FromArgb(0, 255, 0);
+            */
         }
 
         private void CloseForms(object sender,FormClosedEventArgs e)
